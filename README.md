@@ -57,23 +57,41 @@ The codebase is divided into nine stages:
 
 ## Data Folder Structure
 
-### 1. Class and Method-Level Malicious Code Localization (MCL) Baselines
-
-This folder contains the baselines for malicious class and method localization used in the XAIDroid research. These
-baselines serve as benchmarks for evaluating the performance of our localization techniques.
-
-### 2. XAIDroid MCL Results
+### 1. XAIDroid MCL Results
 
 These folders contain the class-level and method-level malicious code localization results of XAIDroid.
 
-### 3. API Lists
+### 2. API Lists
 
 - **Comprehensive API List**: Contains a detailed list of 3121 critical APIs.
 - **Final API List**: A refined list of 688 APIs used in the XAIDroid analysis.
+
+## Class and Method-Level Malicious Code Localization (MCL) Baselines
+
+The Class and Method-Level Malicious Code Localization (MCL) baseline data used in the XAIDroid research is **not publicly distributed through this repository**.
+
+Due to licensing and research policy constraints, the MCL baseline dataset can only be accessed upon request.
+
+If you are interested in obtaining the MCL baseline data, please contact us through WISE lab website:
+
+🔗 **WISE Lab Website:** https://wise.cs.hacettepe.edu.tr/projects/updroid/dataset/
+
+Provide a brief description of your research purpose when making the request.
 
 ## Citation
 
 If you use any part of this code or results in your research, please cite the XAIDroid research paper.
 
-"Explainable Android Malware Detection and Malicious Code Localization Using Graph Attention"
-Authors: Merve Cigdem IPEK and Sevil SEN
+```bibtex
+@article{IPEK2026104385,
+title = {Explainable android malware detection and malicious code localization using graph attention},
+journal = {Journal of Information Security and Applications},
+volume = {98},
+pages = {104385},
+year = {2026},
+issn = {2214-2126},
+doi = {https://doi.org/10.1016/j.jisa.2026.104385},
+url = {https://www.sciencedirect.com/science/article/pii/S2214212626000153},
+author = {Merve Cigdem Ipek and Sevil Sen},
+}
+```
